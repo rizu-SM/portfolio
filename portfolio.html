@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="icon" href="main.jpg" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <img src="pf1.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" >home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!--close icon-->
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()" ></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>UI/UX designer</p>
+                <h1>Hi , I'm <span>sami</span><br> from algeria</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="myimg.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I'm creative director and UI/UX Designer from algeria ,I'm IT student in The University of Science and Technology – Houari Boumediene "USTHB" , working in web development and print media .<br>
+                        I enjoy turning complex problemsinto simple and beautiful. <br><br><br>
+                        My job is build your website so that it is functional and attractive at the same time 
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            soon
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            soon
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>designing Web/App interface</li>
+                            <li><span>web Evelopment</span><br>Web app Development</li>
+                            <li><span>Problem Solving</span><br>algorithme and problem solver</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------services---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    
+                    <i class='bx bx-code-alt' ></i>
+                    <h2>Web Dev</h2>
+                    <p>I offer creat web . full stack developer html , css and javascript user . wordpress</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-crop' ></i>
+                    <h2>UI/UX Design</h2>
+                    <p>im UI/UX design , Figma user . Ecom sites , firms sites , product ...  </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bxs-objects-vertical-bottom' ></i>
+                    <h2>App Design</h2>
+                    <p>im UI/UX design , Figma user . Ecom sites , firms sites , product ...  </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------portfolio----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>soon
+                        </p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.jpg" >
+                    <div class="layer">
+                        <h3>E-com App</h3>
+                        <p>soon
+                        </p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.jpg">
+                    <div class="layer">
+                        <h3>Music and Sound App</h3>
+                        <p>soon
+                        </p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------contact---------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>hamrounsamiabdelmalek@gmail.com</p>
+                    <p>0559409913</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sami.hamroun.10/photos?locale=fr_FR"><i class='bx bxl-facebook-circle' ></i></a>
+                        <a href="https://www.instagram.com/rizu.am/"><i class='bx bxl-instagram-alt' ></i></a>
+                        <a href="https://www.linkedin.com/in/sami-abdelmalek-hamroun-5ba1992ba/"><i class='bx bxl-linkedin-square' ></i></a>
+                    </div>
+                    <a href="CV Sami Hamroun.pdf" download="CV Sami Hamroun.pdf" class="btn btn2">Download CV</a>
+                    <!--i cant download the file-->
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Sami . Thank you for your visite</p>
+        </div>
+    </div>
+    <!--1:48hour to save yout email and name and txt-->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="-30px";
+        }
+        function closemenu(){
+            sidemenu.style.right="-250px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyQZt9waVlIEB_8YTvG-y6sV3ihjPXMTFTiRegjf1kgIruiu_8Q3By7GXuuOE4dWTnK/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent succefully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
